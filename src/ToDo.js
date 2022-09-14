@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
-import IconButton from '@material-ui/core/IconButton';
-import DeleteIcon from '@material-ui/icons/Delete';
-import { Tooltip } from '@material-ui/core';
+import Tooltip from '@mui/material/Tooltip';
 import {Form,Button} from 'react-bootstrap';
+import DeleteIcon from '@mui/icons-material/Delete';
 
 function ToDo() {
   const [todo, setTodo] = useState({description: '', date: ''});
@@ -45,11 +44,9 @@ function ToDo() {
               <td>{index+1 + " . "}</td>
               <td>{todo.description }</td>
               <td>{ todo.date}</td>
-             <Tooltip title="delete todo">
+            <Tooltip title="Delete">
              <td>
-               <IconButton size="small" color="secondary" onClick={() => deleteTodo(index)}>
-                 <DeleteIcon/>
-               </IconButton>
+               {<DeleteIcon color="error" onClick={() => deleteTodo(index)} />}
              </td>
              </Tooltip>
             </tr>)
