@@ -21,6 +21,8 @@ frontend:['https://upload.wikimedia.org/wikipedia/commons/2/25/HTML5_Shiny_Icon.
 ],
 frontendname:['HTML ',' CSS ',' JavaScript ',' Bootstrap ',' jQuery ',' Reactjs ',' typescript '],
 backend:['https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg',
+         'https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg',
+         'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg',
         'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg',
         'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
         require('./logo/expressJs.png'),

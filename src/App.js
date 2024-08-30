@@ -12,8 +12,22 @@ import SearchRepo from './components/Search';
 function Routing (){
     return(  
   <BrowserRouter>
-    <div>   
-    <div class="container mt-3">
+    <div> 
+      <Routes>
+      <Route path="/" element={<About/>} /> 
+      <Route path="/ToDo" element={<ToDo/>} />   
+      <Route path="/NasaApi" element={<NasaApi/>} /> 
+      <Route path="/Tarvia" element={<Tarvia/>} />
+      <Route path="/UserProfile" element={<UserProfile/>}/>
+      <Route path="/SearchRepo" element={<SearchRepo/>}/>
+      </Routes> 
+      </div>
+
+  </BrowserRouter>
+) }
+export default Routing;
+
+/*<div class="container mt-3">
 
     <ul class="nav nav-pills" role="tablist">
 
@@ -36,18 +50,4 @@ function Routing (){
     <Link to ="/SearchRepo" class="nav-link" data-bs-toggle="pill" id="link" >API SEARCH APP</Link>
     </li>
     </ul>
-    
-      </div>
-      <Routes>
-      <Route path="/" element={<About/>} /> 
-      <Route path="/ToDo" element={<ToDo/>} />   
-      <Route path="/NasaApi" element={<NasaApi/>} /> 
-      <Route path="/Tarvia" element={<Tarvia/>} />
-      <Route path="/UserProfile" element={<UserProfile/>}/>
-      <Route path="/SearchRepo" element={<SearchRepo/>}/>
-      </Routes> 
-      </div>
-
-  </BrowserRouter>
-) }
-export default Routing;
+      </div> */

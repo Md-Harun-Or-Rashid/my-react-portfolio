@@ -23,7 +23,7 @@ function Myskills(){
         <br/>
         <h2>I have experience with the following tools and languages.</h2>
         <br/>
-        <h3>Front-End Technologies:</h3>
+        <h3>Front-end technologies:</h3>
         <div class="table-responsive">
         <table>
             <tr>
@@ -33,13 +33,13 @@ function Myskills(){
        <p> <strong>HTML | CSS | JavaScript | Bootstrap | jQuery | React | typescript.</strong> </p>
          
          <br/>
-        <h3>Backend Technologies:</h3>
+        <h3>Programming languages and backend technologies:</h3>
         <table>
             <tr>
               {harun.backend.map(im=> <td> <img src={im} width="50"  height="50"></img></td>)}
             </tr>
         </table>
-         <p><strong> C | Python | Nodejs | express js | REST API | Postman . </strong></p>
+         <p><strong> C | C++ | Java | Python | Nodejs | express js | REST API | Postman . </strong></p>
          <br/>
         <h3>Database:</h3>
         <table>
@@ -80,6 +80,8 @@ function Myskills(){
             </tr>
         </table>
          <p><strong> notepad++ </strong></p>
+         <h3>Other technical skills : </h3>
+         <p><strong>Power Apps | Power Automate | Microsoft Forms | Excel | PowerPoint | Power BI</strong></p>
         </div>
         </div>
         </Collapse>

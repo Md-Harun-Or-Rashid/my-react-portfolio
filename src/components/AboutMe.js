@@ -9,7 +9,7 @@ function About() {
    <div>
    <div className='container'>
    <br/>
-   <h1>Hello,</h1>
+   <h1>Hello! 😊</h1>
    <br/>
    <h2>{harun.intro}</h2>
    <br/>
@@ -38,6 +38,7 @@ function About() {
     <br/>
     
     <footer style={{marginTop:'5%'}}>
+
       <p>© 2024 Harun Rashid</p>
      </footer>
    </div>
