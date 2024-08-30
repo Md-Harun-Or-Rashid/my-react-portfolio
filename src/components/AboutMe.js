@@ -28,7 +28,7 @@ function About() {
     typeSpeed={30}
    />
    <br/>
-   <h4>🌎 Based in Helsinki, Finland.</h4>
+   <h4>🌎 Based in Espoo, Finland.</h4>
    <br/><br/>
    <Myskills/>
     <br/>
@@ -38,7 +38,7 @@ function About() {
     <br/>
     
     <footer style={{marginTop:'5%'}}>
-      <p>© 2022 Harun Rashid</p>
+      <p>© 2024 Harun Rashid</p>
      </footer>
    </div>
    </div>
